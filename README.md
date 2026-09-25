@@ -135,75 +135,128 @@ Aplicação prática juntando Flexbox e Grid para construir a estrutura completa
 
 # | INGLÊS / ENGLISH |
 
-# JavaScript Course by CursoemVideo
+The course is structured into 5 sequential modules, going from absolute zero to creating modern, responsive layouts. Below is the detailed breakdown of the topics covered in each module:
 
-The course is structured into 5 sequential modules, taking you from absolute zero to building modern and responsive layouts. Below is the breakdown of the topics covered in each module:
+Overview of Topics Covered in the Course
+Module 1: Basic Concepts and First Web Page
+History and Web Fundamentals: How the internet works, servers, domains, hosting, and the difference between HTML, CSS, and JavaScript.
 
-### Module 1: Basic Concepts and First Web Page
-* **History and How the Web Works:** How the internet works, servers, domains, hosting, and the difference between HTML, CSS, and JavaScript.
-* **Environment Setup:** Installing and configuring code editors (VS Code) and useful extensions.
-* **HTML5 Syntax and Semantics:**
-  * Basic HTML document structure (`<!DOCTYPE>`, `<html>`, `<head>`, `<body>`).
-  * Paragraphs, line breaks, symbols, and emojis.
-  * Heading hierarchy (`<h1>` to `<h6>`).
-* **Media and Formatting:**
-  * Inserting images (`<img>`), favicons, audio, and videos (internal and hosted on YouTube/Vimeo).
-  * Text formatting (bold, italic, highlights, blockquotes, and source code).
-  * Ordered, unordered, and definition lists.
-* **Links and Anchors:** Creating internal and external links, as well as download links.
-* **Introduction to CSS3:** First steps with inline, internal, and external styles.
+Environment Setup: Installing and configuring the code editor (VS Code) and useful extensions.
 
-### Module 2: Design, Colors, Typography, and Box Model
-* **Web Design Fundamentals:**
-  * Color psychology, harmonization, and color palette tools.
-  * Color representation in CSS (Hexadecimal, RGB, HSL).
-* **Typography:**
-  * Font selection and using external fonts (Google Fonts and local `@font-face` files).
-  * Alignment, font size, and font weight.
-* **Selectors and Pseudo-classes:**
-  * Selectors by class (`.`), ID (`#`), and HTML elements.
-  * Using pseudo-classes like `:hover`, `:visited`, `:active`, and pseudo-elements.
-* **Box Model:**
-  * Concepts of `margin`, `padding`, `border`, and `outline`.
-  * Difference between inline and block-level elements.
-  * Grouping tags (`<main>`, `<header>`, `<nav>`, `<article>`, `<section>`, `<footer>`).
-* **Practical Project:** Creating a fully styled website (Website about the history of the Android mascot).
+HTML5 Syntax and Semantics:
 
-### Module 3: Background Images, Tables, and Advanced Projects
-* **Background Images and Effects:**
-  * Properties of `background-image`, `background-position`, `background-repeat`, and `background-size`.
-  * Parallax scrolling technique using pure CSS.
-* **Tables in HTML/CSS:**
-  * Proper and semantic table structure (`<table>`, `<thead>`, `<tbody>`, `<tfoot>`, `<tr>`, `<th>`, `<td>`).
-  * Merging cells using `colspan` and `rowspan`.
-  * Styling large tables and applying zebra striping.
-  * Making tables responsive for smaller screens.
-* **Practical Projects:**
-  * Cordel Project (website featuring a parallax effect).
-  * Building complete and dynamic tables.
+Basic structure of an HTML document (<!DOCTYPE>, <html>, <head>, <body>).
 
-### Module 4: Forms, Iframes, and Responsiveness (Mobile First)
-* **Iframes (Inline Frames):**
-  * Using the `<iframe>` tag and securely embedding external content.
-* **Web Forms:**
-  * Creating forms with the `<form>` tag.
-  * Input field types (`<input>` with `text`, `password`, `email`, `number`, `date`, `color`, `range`, `file`, etc.).
-  * Advanced elements: `<select>`, `<option>`, `<datalist>`, `<textarea>`, `<fieldset>`, and `<legend>`.
-  * Basic HTML5 validation.
-* **Responsive Design and Media Queries:**
-  * Mobile First concept (developing for mobile first, then adapting for larger screens).
-  * Using `@media` queries to adapt layouts to different resolutions and screen orientations.
-* **Practical Project:**
-  * Social Media Project (interactive menu simulating a smartphone screen with dynamic views via iframe).
+Paragraphs, line breaks, symbols, and emojis.
 
-### Module 5: Modern Layouts (Flexbox and CSS Grid)
-* **CSS Flexbox (Flexible Box Layout):**
-  * Concepts of flexible containers and flexible items.
-  * Alignment and distribution properties along the main and cross axes (`justify-content`, `align-items`, `flex-direction`, `flex-wrap`).
-  * Individual item control (`flex-grow`, `flex-shrink`, `flex-basis`, `order`).
-* **CSS Grid Layout:**
-  * Concept of two-dimensional grids.
-  * Defining rows and columns (`grid-template-columns`, `grid-template-rows`, `repeat()`, `fr`).
-  * Spacing and explicit element positioning (`gap`, `grid-column`, `grid-row`, `grid-template-areas`).
-* **Professional Portfolio Building:**
-  * Practical application combining Flexbox and Grid to build the complete structure of a modern, responsive portfolio published on the web.
+Heading hierarchy (<h1> to <h6>).
+
+Media and Formatting:
+
+Inserting images (<img>), favicon, audio, and video (internal and hosted on YouTube/Vimeo).
+
+Text formatting (bold, italics, highlights, blockquotes, and source code).
+
+Ordered, unordered, and definition lists.
+
+Links and Anchors: Creating internal, external, and download links.
+
+Introduction to CSS3: First steps with inline, internal, and external styles.
+
+Module 2: Design, Colors, Typography, and the Box Model
+Web Design Fundamentals:
+
+Color psychology, color harmony, and color palette tools.
+
+Color representation in CSS (Hexadecimal, RGB, HSL).
+
+Typography:
+
+Font selection and using external fonts (Google Fonts and local @font-face files).
+
+Text alignment, sizing, and font weight.
+
+Selectors and Pseudo-classes:
+
+Class (.), ID (#), and element selectors.
+
+Using pseudo-classes like :hover, :visited, :active, and pseudo-elements.
+
+Box Model:
+
+Concepts of margin, padding, border, and outline.
+
+Difference between inline and block-level elements.
+
+Grouping tags (<main>, <header>, <nav>, <article>, <section>, <footer>).
+
+Practical Project: Creating a fully styled website (Website about the history of the Android mascot).
+
+Module 3: Background Images, Tables, and Advanced Projects
+Background Images and Effects:
+
+Properties of background-image, background-position, background-repeat, and background-size.
+
+Parallax scrolling technique using pure CSS.
+
+Tables in HTML/CSS:
+
+Correct and semantic table structure (<table>, <thead>, <tbody>, <tfoot>, <tr>, <th>, <td>).
+
+Merging cells using colspan and rowspan.
+
+Styling large tables and applying zebra striping effects.
+
+Making tables responsive for smaller screens.
+
+Practical Projects:
+
+Cordel Project (website featuring a parallax effect).
+
+Creating complete and dynamic tables.
+
+Module 4: Forms, Iframes, and Responsiveness (Mobile First)
+Iframes (Inline Frames):
+
+Using the <iframe> tag and securely embedding external content.
+
+Web Forms:
+
+Creating forms with the <form> tag.
+
+Input field types (<input> types: text, password, email, number, date, color, range, file, etc.).
+
+Advanced elements: <select>, <option>, <datalist>, <textarea>, <fieldset>, and <legend>.
+
+Basic HTML5 validation.
+
+Responsive Design and Media Queries:
+
+Mobile First concept (developing for mobile first and then adapting for larger screens).
+
+Using @media to adapt layouts to different screen resolutions and orientations.
+
+Practical Project:
+
+Social Media Project (interactive menu simulating a smartphone screen with dynamic screens loaded via iframe).
+
+Module 5: Modern Layouts (Flexbox and CSS Grid)
+CSS Flexbox (Flexible Box Layout):
+
+Concepts of flex containers and flex items.
+
+Alignment and distribution properties along the main and cross axes (justify-content, align-items, flex-direction, flex-wrap).
+
+Individual item controls (flex-grow, flex-shrink, flex-basis, order).
+
+CSS Grid Layout:
+
+Two-dimensional grid system concept.
+
+Defining rows and columns (grid-template-columns, grid-template-rows, repeat(), fr).
+
+Spacing and explicit element positioning (gap, grid-column, grid-row, grid-template-areas).
+
+Building a Professional Portfolio:
+
+Practical application combining Flexbox and Grid to build the complete structure of a modern, responsive portfolio published on the web.
